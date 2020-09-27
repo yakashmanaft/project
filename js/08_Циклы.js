@@ -13,7 +13,7 @@ let num = 50;
 // } while (num < 55);
 
 for (let i = 1; i < 10; i++) {
-    if (i%2) {
+    if (i%208) {
         // break;
         continue;
     }
