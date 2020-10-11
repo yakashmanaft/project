@@ -21,6 +21,7 @@ btns[0].addEventListener('click', () => {
     btns[1].classList.toggle('red');
 });
 
+// Делегирование событий
 wrapper.addEventListener('click', (e) => {
     // console.dir(e.target);
     if (e.target && e.target.matches('button.red')) {
